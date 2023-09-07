@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300;400&display=swap');
+
+.head{
+    margin-left: 5%;
+    margin-right: 5%;
+    color:#0538c0;
+}
+
+.main{
+    width: 800px;
+    margin: 0 0;
+}
+
+body{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+hr{background-color: rgb(0, 0, 0);
+    height: 1px;
+    border: none;
+    border-color: rgb(0, 0, 0);
+    margin-left: -7px;
+}
+
+.navi{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navi a.active{
+    color: #0538c0;
+}
+
+
+.navi a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /* font-style: verdana; */
+    font-family: sans-serif;
+    padding-right: 1%;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.navi {
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+.img {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("Cutlery.png");
+    height: 410px;
+    background-attachment: fixed;
+  /*  background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 750px 700px;
+  /*  position: relative;
+    text-align: center; */
+    
+}
+.text {
+    position: absolute;
+    font-size: 45px;
+    left: 80px;
+    color: #0538c0;
+}
+
+.text1 {
+    position: absolute;
+    font-size: 45px;
+    left: 80px;
+    top: 200px;
+    color: #0538c0;
+
+}
+.shop{
+    position: absolute;
+    font-size: 10px;
+    left: 80px;
+    top: 320px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    border: none;
+}
+
+h2 {
+    text-align: center;
+    color: #0538c0;
+    padding-top: 2%;
+    font-weight: 100;
+    font-family: 'Abril Fatface';
+    padding-bottom: 2%;
+}
+
+.lay{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.column {
+    float: left;
+    width: 50%;    
+
+}   
+.column h3{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-right: 40%;
+    margin: 5px;
+  }
+
+.img1 {
+    height: 90%;
+    width: 95%;  
+    padding-bottom: 5%;
+
+}
+
+.img2 {
+    height: 90%;
+    width: 95%;
+    align-items: right;
+    padding-bottom: 9%;
+}
+
+h3{
+    color: #0538c0;
+    text-align: center;
+}
+.kitchen{
+    color: #0538c0;
+    text-align: center;
+    /* margin-top: 5px; */
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding-top: 5%;
+  
+  }
+  
+.row1::after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-right: 40%;
+    margin: 5px;
+  }
+
+
+.img3 {
+    height: 90%;
+    width: 95%;  
+    padding-bottom: 9px;
+
+
+}
+
+.img4 {
+    height: 90%;
+    width: 95%;
+    align-items: right;
+    padding-bottom: 9%;
+
+}
